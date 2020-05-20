@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import Link from 'next/link'
 import moment from 'moment'
 import Layout from '../components/layout'
-import firebase from './db';
+import firebase from '../lib/db';
 
 export default class extends Component {
 
